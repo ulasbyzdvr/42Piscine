@@ -96,5 +96,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 		i++;
 	}
 	arr[ac].str = NULL;
+	arr[ac].cpy = NULL;
+	arr[ac].size = NULL;
 	return (arr);
 }
